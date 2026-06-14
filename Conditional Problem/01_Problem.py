@@ -4,9 +4,9 @@ Age = int(input("Enter The Age!"));
 
 if Age < 13:
     print("you a child")
-elif Age > 13 and Age <19 :
+elif Age < 20 :
     print("Teenager")    
-elif Age > 20 and Age <59 :
+elif Age < 60 :
     print ("Adult")    
 else :
     print("Senior")    
