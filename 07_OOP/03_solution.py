@@ -4,8 +4,8 @@ class Car:
         self.brand = brand
         self.model = model
 
-        def full_name(self):
-            return f"{self.brand}{self.model}"
+    def full_name(self):
+        return f"{self.brand}{self.model}"
         
 
 class ElectricCar(Car):
@@ -21,4 +21,4 @@ class ElectricCar(Car):
 # print(my_new_car.model)
 
 my_tesla = ElectricCar("Tesla", "Model S", "85wh")
-print(my_tesla.full_name)
+print(my_tesla.full_name())
